@@ -1,0 +1,21 @@
+﻿@model ASP_MVC.Models.ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Something went wrong</h1>
+<h2 class="text-danger">We are sorry for the inconvenience.</h2>
+
+@if (Model?.ShowRequestId == true)
+{
+    <p>
+        <strong>Request ID:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+
+@if (ViewData["ErrorMessage"] is string message)
+{
+    <div class="alert alert-warning">@message</div>
+}
+
+<p>Please try again or contact support if the problem persists.</p>

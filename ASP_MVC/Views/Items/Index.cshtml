@@ -1,0 +1,23 @@
+@model IReadOnlyList<string>
+@{
+    ViewData["Title"] = "Items";
+}
+
+<h2>Items</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+<ul>
+@foreach (var item in Model)
+{
+    <li>@item</li>
+}
+</ul>
+
+<a class="btn btn-primary" asp-action="Create">Create</a>
+
+
+

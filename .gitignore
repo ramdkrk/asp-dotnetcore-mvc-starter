@@ -1,0 +1,87 @@
+# ---- Core ----
+**/bin/
+**/obj/
+**/out/
+**/.vs/
+**/.vscode/
+**/.idea/
+**/.DS_Store
+**/Thumbs.db
+
+# User-specific
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+*.dbmdl
+*.bak
+*.log
+*.cache
+*.sqlite
+*.pdb
+*.trx
+TestResult*/
+.vs/
+
+# NuGet
+**/packages/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ASP.NET/Static assets
+**/wwwroot/lib/
+**/Logs/
+**/node_modules/
+**/dist/
+**/coverage/
+
+# Publish artifacts
+**/publish/
+**/AppPackages/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Rider
+*.DotSettings.user
+
+# StyleCop
+StyleCopReport.xml
+
+# dotnet tooling
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Generated files
+**/*.g.cs
+**/*.g.*.cs
+**/scopedcss/bundle/
+**/scopedcss/projectbundle/
+
+# Local secrets
+secrets.json
+**/Properties/launchSettings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
