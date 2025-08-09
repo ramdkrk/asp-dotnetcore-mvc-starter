@@ -87,29 +87,4 @@ dotnet test
 - `SecurityHeadersMiddleware` adds common security headers
 - Cookie auth scaffold for demo; replace with Identity or OAuth/OpenID Connect for production
 
-### Publishing to GitHub
-```bash
-# From repository root
-git init
-git add .
-git commit -m "chore: initialize ASP.NET Core MVC boilerplate"
-git branch -M main
-git remote add origin https://github.com/<your-org>/<your-repo>.git
-git push -u origin main
-```
-
-Recommended follow-ups:
-- Enable branch protection on `main`
-- Add CI (e.g., GitHub Actions) to build and run tests on PRs
-- Add code owners and PR templates
-
-### Roadmap (optional)
-- Replace demo cookie auth with Identity or OIDC
-- Add response caching/ETags and distributed cache
-- Add AutoMapper profiles and mapping tests
-- Add feature folders if adopting feature-based structure
-
-### License
-Add your organization’s license here.
-
 
